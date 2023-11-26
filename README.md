@@ -6,7 +6,7 @@ To start a test server on your computer, clone the repository from GitHub and na
 
 The purpose of writing this software is to apply and reinforce my knowledge of web development concepts, including front-end skills and, dynamic content generatiom.
 
-[This is how it looks]()
+[This is how it looks](https://www.loom.com/share/5ac22a0432c54e6f812938035c7772f2?sid=c096c0f0-da8f-4c51-a419-3c13f6136dee)
 
 # Web Pages
 
