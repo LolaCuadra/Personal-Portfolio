@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #fffaf1; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333; 
+}
+
+.icon-bar {
+    margin-top: 20px; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+.profile-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 40%;
+    margin: 20px 0; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+ul li {
+    margin-right: 20px;
+}
+
+a img {
+    max-width: 50px; 
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out; 
+}
+
+a img:hover {
+    transform: scale(1.1); 
+}
+
+button {
+    background-color: #eae7e2; 
+    color: #333; 
+    padding: 10px 20px;
+    border: 2px solid #333; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #EDDDB8; 
+    color: #333; 
+    border-color: #dcc080;
+}
+
+button a{
+    color: #333;
+}
+
+
+.carousel {
+    margin-top: 20px;
+    align-items: center;
+  }
+
+.description {
+    margin: 20px 0;
+    font-size: large;
+}
+
+.carousel img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}

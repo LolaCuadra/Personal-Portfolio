@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get To Know Me</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Getting to Know Lola</h1>
+    <p>The Software Engineer</p>
+
+    <div class="carousel">
+      <div><img src="/images/walks.jpeg" alt="Slide 1"></div>
+      <div><img src="/images/engagement.jpeg" alt="Slide 2"></div>
+      <div><img src="/images/food.jpeg" alt="Slide 3"></div>
+    </div>
+
+    <div class="description">
+      <p>Bringing a dash of code to the world and a sprinkle of laughter to the terminal! As a software engineer, I navigate the intricate web of algorithms by day and unravel the mysteries of the kitchen by night. When I'm not crafting elegant code, you'll find me crafting gourmet dishes, because why settle for plain arrays when you can have arrays of flavors?</p>
+     <p>As a software engineer, I thrive on challenges and adventures. Whether it's debugging a tricky issue or discovering a new coding language, I'm always up for an exciting journey in the world of technology.</p>
+     <p>But wait, there's more to this byte-sized adventurer! Alongside my love for coding, I have a soft spot for my husband (and I promise it's not just because he brings snacks to my coding sessions). Fashion enthusiast, food connoisseur, and coding aficionado, I believe in blending style with syntax, and spaghetti with code (but not together, that's just messy).</p> 
+     <p>my motto? "Let's code, laugh, and make your software dreams as stylish as my wardrobe!"</p>
+      <button onclick="goBack()">Go Back</button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true, 
+        autoplaySpeed: 1000 
+      });
+    });
+
+    function goBack() {
+      window.location.href = "/";
+    }
+  </script>
+</body>
+</html>
